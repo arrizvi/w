@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SQL</string>
+    <string name="please_enter_your_name">Please Enter Your Name</string>
+    <string name="please_enter_your_age">Please Enter Your Age</string>
+</resources>
