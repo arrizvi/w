@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/table1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="TODO"
+        android:onClick="orderTable1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/table" />
+
+    <ImageButton
+        android:id="@+id/table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="TODO"
+        android:onClick="orderTable2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/table" />
+
+    <ImageButton
+        android:id="@+id/table3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="orderTable3"
+        app:layout_constraintTop_toBottomOf="@+id/table1"
+        app:srcCompat="@drawable/table"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/table4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="48dp"
+        android:contentDescription="TODO"
+        android:onClick="orderTable4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table2"
+        app:srcCompat="@drawable/table" />
+
+    <ImageButton
+        android:id="@+id/table5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table3"
+        app:srcCompat="@drawable/table"
+        android:onClick="orderTable5"
+        android:contentDescription="TODO" />
+
+
+    <ImageButton
+        android:id="@+id/table6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table4"
+        android:onClick="orderTable6"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/table" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table1"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table1" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table2"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table2" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table3"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table3" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table4"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table4" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table5"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table5" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Table6"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

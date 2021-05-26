@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menue">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="208dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shwarma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="61dp"
+        android:layout_height="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName12"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="180"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName10"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="210"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName10"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Price"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Product"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="208dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Burger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
