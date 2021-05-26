@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Internt786</string>
+    <string name="moveactivity">MoveActivity</string>
+    <string name="web">Web</string>
+    <string name="call">Call</string>
+    <string name="string_call" />
+</resources>
